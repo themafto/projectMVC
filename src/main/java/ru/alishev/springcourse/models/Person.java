@@ -6,9 +6,7 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 
-/**
- * @author Neil Alishev
- */
+
 public class Person {
     private int id;
     @NotEmpty(message = "Name should not be empty")
